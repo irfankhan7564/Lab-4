@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int domestic,commercial,units,choice,bill;
+   cout<<"1=Domestic First 100\n";
+   cout<<"2=Domestic above 100\n";
+   cout<<"3=Commercial First 100\n";
+   cout<<"4=Commercial above 100\n";
+   cout<<"Enter choice (1-4):";
+   cin>>choice;
+  // domestic less then 100 units
+   switch (choice) {
+       case 1:
+       cout<<" Enter the units:";
+       cin>>units;
+       bill=units*10;
+       cout<<"bill: "<<bill;
+        break;
+       //domestic above 100 units
+       case 2:
+       cout<<" Enter the units:";
+       cin>>units;
+       bill=units*15;
+       cout<<"bill: "<<bill;
+        break;
+       // commercial less then 100
+       case 3:
+       cout<<"Enter units:";
+       cin>>units;
+       bill=units*20;
+       cout<<"bill: "<<bill;
+        break;
+      // commercial above 100 units
+       case 4:
+       cout<<"Enter units:";
+       cin>>units;
+       bill=units*25;
+       cout<<"bill: "<<bill;
+       default:
+       cout<< "invalid input";
+       break;
+       
+   }
+}
+   
+   
+    

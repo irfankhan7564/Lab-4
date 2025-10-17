@@ -1,0 +1,38 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+    int choice,circle,radius,area,length,base,width;
+  cout<< "1= area of circle\n";
+  cout<<"2= area of triangle \n";
+  cout<<"3= area of rectangle\n";
+  cout<<"Enter your choice(1-3):\n";
+  cin>>choice;
+  
+  switch(choice){
+  case 1:
+  cout<<" enter the radius of the circle";
+  cin>>radius;
+  area=3.14*radius*radius;
+  cout<<"area:"<<area;
+  
+  // area of tringle
+  case 2:
+  cout<<"enter the lenth";
+  cin>>length;
+  cout<<"enter the base:";
+  cin>>base;
+  area=length*base;
+  cout<<"area:"<<area;
+
+// area of rectangle
+case 3:
+cout<<"eneter the length:";
+cin>>length;
+cout<<"enter the width:";
+cin>>width;
+area=length*width;
+cout<<"area:";
+}
+}
