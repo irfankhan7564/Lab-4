@@ -1,0 +1,28 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  string pass;
+  bool loopbreak=false;
+do {
+     cout<<"enter pass:";
+        cin>>pass;
+        if(pass=="python123")
+        loopbreak=true;
+
+}
+  while(loopbreak!=true);{
+    cout<<endl;
+    }
+    
+
+}
+
+
+
+
+
+
+
+  
