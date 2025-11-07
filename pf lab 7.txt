@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+void Evenodd(int n){
+    if(n%2==0){
+        cout<<"The number is Even: "<<n<<endl;
+        cout<<"good job";
+    }
+    else if (n%2!=0){
+        cout<<"The number is odd:"<<n<<endl;
+        cout<<"great job";
+    }
+}
+int main(){
+    int num,b,loopbreak;
+    while(true){
+        cout<<"enter a number: ";
+        cin>>num;
+        Evenodd(num);
+        if(num==b)
+        break;
+    }
+    return 0;
+}
+    
