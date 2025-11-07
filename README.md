@@ -1,2 +1,2 @@
-# Lab-4
-lab 4 
+# Lab-all labs practice
+all labs prctice questions
